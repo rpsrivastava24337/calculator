@@ -14,7 +14,7 @@ display: flex;
 
 h3{
   text-align: center;
-  color: #fffdfd;
+  color: #4e4e4e;
 }
 .calc {
   width: 250px;
@@ -32,7 +32,7 @@ form input {
   border: none;
   font-size: 2rem;
   color: rgb(255, 255, 255);
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px ;
   background-color: rgb(1, 1, 1);
   text-align: right;
   pointer-events: none;
@@ -50,15 +50,19 @@ form input {
 button {
   flex: 0 0 22%;
   margin: 3px 0px;
-  border: 1px solid black;
+  border: 1px solid rgb(22, 22, 22);
   width: 38px;
   height: 38px;
   font-size: 22px;
   font-weight: 600;
   border-radius: 10%;
   cursor: pointer;
-  box-shadow: 2px 2px rgb(6, 6, 6);
+  box-shadow: 2px 2px rgb(39, 38, 38);
 
+}
+button:hover{
+  box-shadow: 2px 2px rgb(0, 0, 0);
+  font-size:20px ;
 }
 .btn-yellow{
   background-color: rgb(255, 166, 0);
